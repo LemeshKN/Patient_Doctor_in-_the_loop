@@ -5,7 +5,8 @@ import pandas as pd
 # --- CONFIGURATION ---
 # Use 'http://127.0.0.1:8000' for laptop testing
 # Use 'http://YOUR_IP:8000' for phone testing
-API_URL = "http://127.0.0.1:8000" 
+#API_URL = "http://127.0.0.1:8000" 
+API_URL = "https://patient-doctor-in-the-loop.onrender.com"
 
 st.set_page_config(page_title="Doctor App", page_icon="👨‍⚕️", layout="centered")
 
